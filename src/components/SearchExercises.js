@@ -51,7 +51,7 @@ function SearchExercises({setexercises,bodyPart,setbodyPart}) {
           input:{
             fontWeight:"700",border:"none",borderRadius:"4px"
           },
-          width:{lg:"800px",xs:"265px",md:"400px"},backgroundColor:"#fff",borderRadius:"40px"
+          width:{lg:"800px",xs:"250px",md:"400px"},backgroundColor:"#fff",borderRadius:"40px"
         }}
          height="76px"
           value={search}  
