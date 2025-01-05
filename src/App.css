@@ -122,7 +122,9 @@ body {
     position: static !important;
   }
 
-
+  .hero-banner-img {
+    display: none;
+  }
 
   .exercise-card {
     width: 320px;
@@ -140,8 +142,3 @@ body {
     width: 280px;
   }
 }
-
-@media screen and (max-width:1245) {
-.hero-banner-img {
-  display: none;
-}}
