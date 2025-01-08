@@ -18,7 +18,7 @@ function Exercises({exercises,setexercises,bodyPart}) {
     setexercises(ShowedExercises)
   }
    fetcheddata()
-  }, [bodyPart])
+  }, [bodyPart,setexercises])
   
   return (
     <Box id={"exercises"} p="20px" sx={{mt:{lg:"100px",xs:"50px"}} }>
